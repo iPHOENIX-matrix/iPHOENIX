@@ -1,0 +1,34 @@
+#wrapper{
+  background-image: url(images/2.jpg);
+  background-size: cover;
+}
+
+
+.logo{
+  height: 10px;
+  width: 15px;
+}
+
+#main1{
+  height: 19rem;
+  width: 17rem;
+  left: 27%;
+}
+#main2{
+  height: 17rem;
+  width: 17rem;
+  left: 25%;
+}
+
+
+
+/*Mobile View*/
+@media (max-width: 991px)
+{
+  #main1{
+    left: 8%;
+  }
+  #main2{
+    left: 8%;
+  }
+}
